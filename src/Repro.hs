@@ -1,4 +1,4 @@
-{-# OPTIONS_GHC -fno-worker-wrapper #-}
+{-# OPTIONS_GHC -fno-worker-wrapper -dno-typeable-binds #-}
 -- | Postgres SQL DML
 --
 -- Provide types and combinators for defining Postgres SQL queries and mutations.
